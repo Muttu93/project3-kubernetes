@@ -1,4 +1,4 @@
-
+FROM python:3.x-slim-buster
 FROM public.ecr.aws/docker/library/python:3.12-bullseye
 COPY /analytics /coworking
 WORKDIR /coworking
